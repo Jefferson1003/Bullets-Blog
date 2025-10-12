@@ -3,7 +3,7 @@
     <title>Bullet&#x27;s Blog</title>
     <link href="https://jefferson1003.github.io/Bullets-Blog/feed.xml" rel="self" />
     <link href="https://jefferson1003.github.io/Bullets-Blog" />
-    <updated>2025-10-11T19:10:28+08:00</updated>
+    <updated>2025-10-12T13:42:52+08:00</updated>
     <author>
         <name>Bala, Jefferson D.</name>
     </author>
@@ -155,18 +155,27 @@
 <figure class="gallery__item"><a href="https://jefferson1003.github.io/Bullets-Blog/media/posts/7/gallery/557770188_1373112911489243_6635311159913916265_n.jpg" data-size="2048x2048"><img loading="lazy" src="https://jefferson1003.github.io/Bullets-Blog/media/posts/7/gallery/557770188_1373112911489243_6635311159913916265_n-thumbnail.jpg" alt="" width="720" height="720"></a></figure>
 <figure class="gallery__item"><a href="https://jefferson1003.github.io/Bullets-Blog/media/posts/7/gallery/560178566_1373106468156554_396252991227200774_n.jpg" data-size="2048x1536"><img loading="lazy" src="https://jefferson1003.github.io/Bullets-Blog/media/posts/7/gallery/560178566_1373106468156554_396252991227200774_n-thumbnail.jpg" alt="" width="720" height="540"></a></figure>
 </div></div>
-<section class="comments-box">
-<h3>Comments</h3>
-<!-- Existing Comments -->
-<div class="comment"><strong>John Doe</strong>
-<p>Ang ganda ng post mo! Very informative 🔥</p>
-<span class="date">Posted on Oct 10, 2025</span></div>
-<div class="comment"><strong>Jane Cruz</strong>
-<p>Salamat sa tips! Makakatulong to sa research namin 💡</p>
-<span class="date">Posted on Oct 11, 2025</span></div>
-<hr><!-- Add New Comment (fake form) -->
-<h4>Leave a Comment</h4>
-<form class="comment-form"><input required="" type="text" placeholder="Your Name"> <textarea required="" rows="4" placeholder="Write your comment..."></textarea> <button type="button">Post Comment</button></form></section>
+<div id="disqus_thread"></div>
+<p>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://mysite-comments.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+</p>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
             ]]>
         </content>
     </entry>
