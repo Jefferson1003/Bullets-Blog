@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https:// jefferson1003.github.io/Bullets-Blog/sitemap.xml
